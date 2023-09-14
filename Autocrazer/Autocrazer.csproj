@@ -104,7 +104,6 @@
     <Content Include="css\style.css" />
     <Content Include="ctgrydisplay.aspx" />
     <Content Include="displayprodt.aspx" />
-    <Content Include="giteg.aspx" />
     <Content Include="Hmpg.aspx" />
     <Content Include="copoimages\a-1.jpg" />
     <Content Include="copoimages\a-2.jpg" />
@@ -256,13 +255,6 @@
     </Compile>
     <Compile Include="displayprodt.aspx.designer.cs">
       <DependentUpon>displayprodt.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="giteg.aspx.cs">
-      <DependentUpon>giteg.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="giteg.aspx.designer.cs">
-      <DependentUpon>giteg.aspx</DependentUpon>
     </Compile>
     <Compile Include="Hmpg.aspx.cs">
       <DependentUpon>Hmpg.aspx</DependentUpon>
