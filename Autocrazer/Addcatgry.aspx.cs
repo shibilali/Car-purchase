@@ -21,6 +21,8 @@ namespace Autocrazer
             FileUpload1.SaveAs(Server.MapPath(filePath));
             string ins = "insert into Category values ('" + TextBox1.Text + "','" + filePath + "','" + TextBox3.Text + "')";
             int i = obj.Fn_NonQuery(ins);
+            string script = "alert('Product successfully added');";
+            ClientScript.RegisterClientScriptBlock(this.GetType(), "Alert", script, true);
         }
     }
 }
