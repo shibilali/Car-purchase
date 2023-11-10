@@ -60,5 +60,34 @@ namespace Autocrazer
             da.Fill(ds);
             return ds;
         }
+
+        //Cart
+        public static void OpenConnection(SqlConnection con)
+        {
+            try
+            {
+                if (con.State == ConnectionState.Open)
+                {
+                    con.Close();
+                }
+                con.ConnectionString = "Data Source=.\\SQLEXPRESS;database=Project1;Integrated Security=true";
+                con.Open();
+            }
+            catch (Exception)
+            {
+
+            }
+        }
+        public static void CloseConnection(SqlConnection con)
+        {
+            try
+            {
+                con.Close();
+            }
+            catch (Exception)
+            {
+
+            }
+        }
     }
 }

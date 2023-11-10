@@ -86,7 +86,7 @@
                                     &nbsp;</td>
                                 <td class="auto-style9">
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <asp:Button ID="Button2" runat="server" BackColor="Red" BorderStyle="None" ForeColor="White" Height="40px" Text="Add to cart" />
+                                    <asp:Button ID="Button2" runat="server" BackColor="Red" BorderStyle="None" ForeColor="White" Height="40px" Text="Add to cart" OnClick="Button2_Click" />
                                 </td>
                             </tr>
                         </table>

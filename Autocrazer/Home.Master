@@ -15,7 +15,7 @@
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet"> 
 
     <!-- Icon Font Stylesheet -->
@@ -63,9 +63,9 @@
                     <small>+91 87144 17405</small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center">
-                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="#"><i class="fab fa-linkedin-in"></i></a>
                     <a class="btn btn-sm-square bg-white text-primary me-0" href="https://instagram.com/shibil_autocrazer?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
@@ -93,7 +93,7 @@
                 <a href="about.html" class="nav-item nav-link">Profile</a>
                 <a href="Cntct.aspx" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Cart  <i class="fa fa-shopping-cart"></i></a>
+            <a href="Cart.aspx" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Cart  <i class="fa fa-shopping-cart"></i></a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -183,10 +183,10 @@
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 87144 17405</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -198,11 +198,11 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Services</h4>
-                    <a class="btn btn-link" href="">Diagnostic Test</a>
-                    <a class="btn btn-link" href="">Engine Servicing</a>
-                    <a class="btn btn-link" href="">Tires Replacement</a>
-                    <a class="btn btn-link" href="">Oil Changing</a>
-                    <a class="btn btn-link" href="">Vacuam Cleaning</a>
+                    <a class="btn btn-link" href="#">Diagnostic Test</a>
+                    <a class="btn btn-link" href="#">Engine Servicing</a>
+                    <a class="btn btn-link" href="#">Tires Replacement</a>
+                    <a class="btn btn-link" href="#">Oil Changing</a>
+                    <a class="btn btn-link" href="#">Vacuam Cleaning</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Newsletter</h4>

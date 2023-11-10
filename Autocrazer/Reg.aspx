@@ -18,7 +18,7 @@
         height: 42px;
     }
     .auto-style6 {
-        margin-left: 7;
+        margin-left: 7px;
     }
     .auto-style7 {
         height: 53px;

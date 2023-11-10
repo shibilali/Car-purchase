@@ -15,7 +15,7 @@
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet"> 
 
     <!-- Icon Font Stylesheet -->
@@ -79,7 +79,7 @@
                 <a href="about.html" class="nav-item nav-link">Profile</a>
                 <a href="Cntct.aspx" class="nav-item nav-link active">Contact</a>
             </div>
-                        <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Cart  <i class="fa fa-shopping-cart"></i></a>
+                        <a href="#" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Cart  <i class="fa fa-shopping-cart"></i></a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -129,10 +129,10 @@
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 87144 17405</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -144,9 +144,9 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Services</h4>
-                    <a class="btn btn-link" href="">Buy Car</a>
-                    <a class="btn btn-link" href="">Test Drive</a>
-                    <a class="btn btn-link" href="">Water Service</a>
+                    <a class="btn btn-link" href="#">Buy Car</a>
+                    <a class="btn btn-link" href="#">Test Drive</a>
+                    <a class="btn btn-link" href="#">Water Service</a>
                 </div>
             </div>
         </div>
@@ -155,10 +155,10 @@
                 <div class="row">
                     <div class="col-md-6 text-center text-md-end">
                         <div class="footer-menu">
-                            <a href="">Home</a>
-                            <a href="">Cookies</a>
-                            <a href="">Help</a>
-                            <a href="">FQAs</a>
+                            <a href="#">Home</a>
+                            <a href="#">Cookies</a>
+                            <a href="#">Help</a>
+                            <a href="#">FQAs</a>
                         </div>
                     </div>
                 </div>

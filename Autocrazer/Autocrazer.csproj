@@ -44,6 +44,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -67,6 +69,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ACCard.aspx" />
     <Content Include="Addcatgry.aspx" />
     <Content Include="addprdt.aspx" />
     <Content Include="Ap.aspx" />
@@ -92,7 +95,35 @@
     <Content Include="assets\js\jquery.min.js" />
     <Content Include="assets\js\owl.carousel.min.js" />
     <Content Include="car-repair-html-template.jpg" />
+    <Content Include="card.css" />
+    <Content Include="card.js" />
+    <Content Include="Cart.aspx" />
+    <Content Include="cartcss\bootstrap-theme.min.css" />
+    <Content Include="cartcss\bootstrap.min.css" />
+    <Content Include="cartfonts\glyphicons-halflings-regular.svg" />
+    <Content Include="cartjs\bootstrap.min.js" />
+    <Content Include="cartjs\jquery.min.js" />
+    <Content Include="cartobj\Debug\ShoppingCartDemo.csproj.FileListAbsolute.txt" />
     <Content Include="Cntct.aspx" />
+    <Content Include="Connected Services\BalanceCheckService\Autocrazer.BalanceCheckService.CompositeType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="cartfonts\glyphicons-halflings-regular.eot" />
+    <Content Include="cartfonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="cartfonts\glyphicons-halflings-regular.woff" />
+    <Content Include="cartfonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="cartobj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="cartobj\Debug\ShoppingCartDemo.csproj.AssemblyReference.cache" />
+    <Content Include="cartobj\Debug\ShoppingCartDemo.csproj.CoreCompileInputs.cache" />
+    <Content Include="Carthome.Master" />
+    <Content Include="Card.Master" />
+    <None Include="Connected Services\BalanceCheckService\Service.disco" />
+    <None Include="Connected Services\BalanceCheckService\configuration91.svcinfo" />
+    <None Include="Connected Services\BalanceCheckService\configuration.svcinfo" />
+    <None Include="Connected Services\BalanceCheckService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
     <Content Include="copocss\bootstrap.css" />
     <Content Include="copocss\font-awesome.min.css" />
     <Content Include="copocss\responsive.css" />
@@ -196,9 +227,17 @@
     <Content Include="Reg.aspx" />
     <Content Include="service.html" />
     <Content Include="regstyle.css" />
+    <Content Include="wcf.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ACCard.aspx.cs">
+      <DependentUpon>ACCard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ACCard.aspx.designer.cs">
+      <DependentUpon>ACCard.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Addcategory.Master.cs">
       <DependentUpon>Addcategory.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -227,12 +266,39 @@
     <Compile Include="Ap.aspx.designer.cs">
       <DependentUpon>Ap.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Card.Master.cs">
+      <DependentUpon>Card.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Card.Master.designer.cs">
+      <DependentUpon>Card.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Cart.aspx.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cart.aspx.designer.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Carthome.Master.cs">
+      <DependentUpon>Carthome.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Carthome.Master.designer.cs">
+      <DependentUpon>Carthome.Master</DependentUpon>
+    </Compile>
+    <Compile Include="cartobj\Debug\.NETFramework,Version=v4.6.1.AssemblyAttributes.cs" />
     <Compile Include="Cntct.aspx.cs">
       <DependentUpon>Cntct.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Cntct.aspx.designer.cs">
       <DependentUpon>Cntct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\BalanceCheckService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="Connection.cs" />
     <Compile Include="Contact.Master.cs">
@@ -327,6 +393,13 @@
     <Compile Include="Registration.Master.designer.cs">
       <DependentUpon>Registration.Master</DependentUpon>
     </Compile>
+    <Compile Include="wcf.aspx.cs">
+      <DependentUpon>wcf.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wcf.aspx.designer.cs">
+      <DependentUpon>wcf.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="lib\owlcarousel\LICENSE" />
@@ -368,6 +441,16 @@
     <Content Include="copocss\style.css.map" />
     <Content Include="copocss\style.scss" />
     <Content Include="Contact.Master" />
+    <None Include="Connected Services\BalanceCheckService\Service.wsdl" />
+    <None Include="Connected Services\BalanceCheckService\Service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\BalanceCheckService\Service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\BalanceCheckService\Service2.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
     <Content Include="scss\bootstrap.scss" />
     <Content Include="scss\bootstrap\scss\bootstrap-grid.scss" />
@@ -462,8 +545,15 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="cartobj\Debug\TempPE\" />
     <Folder Include="IMGS\" />
     <Folder Include="PIMG\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\BalanceCheckService\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
